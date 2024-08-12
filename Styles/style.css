@@ -209,25 +209,34 @@ body {
 .run-extra-mile{
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin: 0 auto;
+    padding:20px 0
+}
+.run-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-.run-curd{
-    width: 60%;
+    margin: 0 auto;
     border: 1px solid red;
+    width: 80%;
+    position: relative;
+    
+}
+.run-curd{
+    width: 100%;
+    border:1px solid red;
 }
 .run-curd-2{
-    width: 40%;
-    border: 1px solid red;
+    width: 30%;
+    position: absolute;
+    right:0;
 }
 .run-curd-2 img{
     width: 100%;
 }
-
-
-
+.run-curd h2{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    width: 80%;
+}
 
 /* Responsive Design  */
 @media only screen and (max-width: 600px) {
