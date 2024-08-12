@@ -14,19 +14,19 @@ body {
     font-style: normal;
     color: #ffffff !important;
     background-color: #000000;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* All Primary Background-Color */
 /* Design Start Hare  */
 .header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background-color:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%)!important;
     padding-top: 70px;
 }
 
 .fitness-header {
-    max-width: 1440px;
     height: 800px;
-    margin: 0 auto;
 }
 
 .logo {
@@ -164,16 +164,56 @@ body {
     font-weight: 700;
     display: block;
 }
+/* Change Habit Design  */
+.change-habit-main-containerL{
+    margin:40px auto;
+}
+.change-habit-content{
+    margin: 0 auto;
+    text-align: center;
+}
+.change-habit-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.change-habit-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 200;
+    width: 50%;
+    margin: 10px auto;
+}
+.habit-curd{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 0;
+}
+.Movement, .Time, .Weight-Loss, .Practice{
+    text-align: center;
+    margin: 0 auto;
+}
+.habit-primary-image-radius{
+    border-radius: 50%;
+}
+.habit-primary-title{
+    margin-top:20px;
+    font-weight: 500;
+}
+.habit-primary-description{
+    font-weight: 200;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 70%;
+    display: block;
+}
 
 
 
 
-
-/* Responsive Design  */
+/* Responsive Design 
 @media only screen and (max-width: 600px) {
     .fitness-content-container {
         border: 1px solid red;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
-}
+} */
