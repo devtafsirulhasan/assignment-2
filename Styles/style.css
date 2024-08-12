@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff !important;
+    background-color: #000000;
+}
+
+/* All Primary Background-Color */
+/* Design Start Hare  */
+.header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    padding-top: 70px;
+}
+
+.fitness-header {
+    max-width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 32px;
+    color: #E6533C;
+    font-weight: 800;
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+
+.navbar-content li {
+    list-style-type: none;
+    margin: 7px 20px;
+    font-weight: 400;
+}
+
+#active {
+    background-color: #E6533C;
+}
+
+.navbar-content a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.fitness-content-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.fitness-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.fitness-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.fitness-tutorial img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.fitness-title span {
+    font-family: "Grey Qo", cursive;
+    font-weight: 500;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.button-1 {
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 40px;
+    border-radius: 50px;
+    border: none;
+}
+.button-2{
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 40px;
+    border-radius: 50px;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+.fitness-tutorial{
+    position: relative;
+}
+.tutorial-box-1{
+    width: 200px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    top: 158px;
+    right: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+.tutorial-box-2{
+    width: 200px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    border-radius: 8px;
+    margin-left: 90px;
+}
+
+
+.tutorial-title{
+    font-size:3.5rem;
+    color:#ffffff;
+    font-weight: 700;
+    display: block;
+}
+
+
+
+
+
+/* Responsive Design  */
+@media only screen and (max-width: 600px) {
+    .fitness-content-container {
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
