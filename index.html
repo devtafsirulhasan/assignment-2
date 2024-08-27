@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitnes.com</title>
+    <title>Fitness.zon</title>
     <link rel="stylesheet" href="./Styles/style.css">
 </head>
 
@@ -14,7 +14,7 @@
             <nav class="navbar-container">
                 <h3 class="logo">Fitness</h3>
                 <ul class="navbar-content">
-                    <li id="active"><a href="">Home</a></li>
+                    <li><a id="home-id" href="">Home</a></li>
                     <li><a href="">Service</a></li>
                     <li><a href="">Contact</a></li>
                     <li><a href="">About</a></li>
@@ -22,7 +22,7 @@
             </nav>
             <div class="fitness-content-container">
                 <div class="fitness-header-details">
-                    <h1 class="fitness-title">Get body in <span>shape</span> & stay healthy</h1>
+                    <h1 class="fitness-title">Get body in <br/><span>shape</span> & stay<br/> healthy</h1>
                     <p class="fitness-description">A huge selection of health and fitness content, healthy recipes and
                         transformation stories to help
                         you get fit and stay fit!</p>
@@ -78,20 +78,199 @@
             </div>
         </section>
         <section class="run-extra-mile">
-                <div class="run-container">
-                    <div class="run-curd">
-                        <h2>Run an Extra Mile Easily</h2>
-                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
-                            gym. With hundreds of professional workouts.
-                        </p>
-                        <button>Join Now</button>
+            <div class="run-container">
+                <div class="run-curd">
+                    <h2>Run an Extra Mile Easily</h2>
+                    <p class="run-curd-description">We believe fitness should be accessible to everyone, everywhere,
+                        regardless of income or access to a
+                        gym. With hundreds of professional workouts.
+                    </p>
+                    <button class="join-btn">Join Now</button>
+                </div>
+                <div class="run-curd-2">
+                    <img src="./images/run.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="Trainings-and-Exercises">
+            <div class="Trainings-explane">
+                <h1>Trainings and Exercises</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                    gym.</p>
+            </div>
+            <div class="Trainings-and-Exercises-pictures">
+                <div class="flexBox-1">
+                    <div class="curd-1"><img src="./images/exercise1.jpg" alt=""></div>
+                    <div class="curd-2"><img src="./images/exercise2.png" alt=""></div>
+                    <div class="curd-3"><img src="./images/exercise3.png" alt=""></div>
+                </div>
+
+                <div class="flexBox-2">
+                    <div class="curd-4"><img src="./images/exercise4.png" alt=""></div>
+                    <div class="curd-5"><img src="./images/exercise5.jpg" alt=""></div>
+                    <div class="curd-6"><img src="./images/exercise6.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BMI  -->
+        <section class="bmi">
+            <div class="bmi-container">
+                <h1 class="bmi-title">BMI Calculator</h1>
+                <p class="bmi-description">A BMI Calculator helps determine your body mass index to assess if you're
+                    underweight, normal weight, overweight, or obese based on your height and weight.</p>
+            </div>
+            <div class="bmi-table-container">
+                <div class="bmi-table-content">
+                    <div class="bmi-chart">
+                        <h1 class="bmi-chart-title">BMI Calculator Chart</h1>
+                        <table class="bmi-table">
+                            <tr>
+                                <th>
+                                    BMI
+                                </th>
+                                <th>Weight Status</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Below 18.5
+                                </td>
+                                <td>
+                                    Underweight
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    18.5 - 24.9
+                                </td>
+                                <td>
+                                    Healthy
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </table>
+
                     </div>
-                    <div class="run-curd-2">
-                        <img src="./images/run.jpg" alt="">
+                    <div class="calculate-bmi">
+                        <h1 class="calculate-bmi-title">Calculate your BMI</h1>
+                        <p class="calculate-bmi-description">Calculate your BMI by dividing your weight in kilograms by
+                            the square of your height in meters to evaluate your body fat level. </p>
+                        <form class="bmi-form">
+                            <div class="bmi-form-container">
+                                <input type="text" placeholder="Height/cm">
+                                <input type="text" placeholder="Weight/kg">
+                                <input type="text" placeholder="Age">
+                                <select name="" id="">
+                                    <Option>Sex</Option>
+                                    <Option>Male</Option>
+                                    <Option>Female</Option>
+                                </select>
+                            </div>
+                            <select class="select-activity" name="" id="">
+                                <Option>Select an activity factor</Option>
+                                <Option>Sedentary: ( Little or no exercise)</Option>
+                                <Option>Lightly Active: (Light exercise or sports 1-3 days a week)</Option>
+                                <Option>Moderately Active: (Moderate exercise or sports 3-5 days a week)</Option>
+                                <Option>Very Active: (Hard exercise or sports 6-7 days a week)</Option>
+                                <Option>Extra Active: (Very hard exercise, physical job, or training twice a day.)
+                                </Option>
+                            </select>
+                        </form>
+                        <button class="btn-calculate">Calculate</button>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- team section  -->
+        <section class="meet">
+            <div class="meet-container">
+                <div class="meet-content">
+                    <h1 class="meet-title">Meet Our Team</h1>
+                    <p class="meet-description">Meet our team of dedicated professionals who bring expertise, passion,
+                        and innovation to every project.</p>
+                </div>
+                <div class="meet-img-container">
+                    <div class="trainors" id="jerome">
+                        <div class="trainer-content">
+                            <h4 class="people-name">Jerome Bell</h4>
+                            <p class="people-subtitle">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="trainors" id="cameron">
+                        <div class="trainer-content">
+                            <h4 class="people-name">Cameron Williamson</h4>
+                            <p class="people-subtitle">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="trainors" id="darrell">
+                        <div class="trainer-content">
+                            <h4 class="people-name">Darrell Steward</h4>
+                            <p class="people-subtitle">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="trainors" id="dianne">
+                        <div class="trainer-content">
+                            <h4 class="people-name">Dianne Russel</h4>
+                            <p class="people-subtitle">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="trainors" id="cody">
+                        <div class="trainer-content">
+                            <h4 class="people-name">Cody Fisher</h4>
+                            <p class="people-subtitle">Trainer</p>
+                        </div>
+                    </div>
+                    <div class="trainors" id="theresa">
+                        <div class="trainer-content">
+                            <h4 class="people-name">Theresa Webb</h4>
+                            <p class="people-subtitle">Trainer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
+<!-- footer  -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-column">
+            <h1 class="fitness-title-footer">Fitness</h1>
+            <p class="fitness-description">Achieving fitness is a journey that transforms not just your body but
+                also your mind and spirit. Embrace a lifestyle of health and wellness to unlock your fullest
+                potential.</p>
+        </div>
+        <div class="footer-column-container">
+            <div class="footer-column-one">
+                <h1 class="get-started-title">Get Started</h1>
+                <ul>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Affiliate Program</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column-two">
+                <h1 class="get-started-title">Get Started</h1>
+                <ul>
+                    <li><a href="">Fitness</a></li>
+                    <li><a href="">Platform</a></li>
+                    <li><a href="">Workout Library</a></li>
+                    <li><a href="">App Design</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright-description">All right reserved @Fitness 2024</p>
+</footer>
 </body>
 
 </html>
